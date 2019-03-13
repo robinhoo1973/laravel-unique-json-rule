@@ -13,6 +13,10 @@ storage/*.key
 .env.*.php
 .env.php
 .env
+vendor
+tests
+.scrutinizer.yml
+.travis.yml
 Homestead.yaml
 Homestead.json
 

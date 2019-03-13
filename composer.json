@@ -1,0 +1,40 @@
+{
+    "name": "topview-digital/laravel-unique-json-rule",
+    "description": "",
+    "keywords": [],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Robin Hoo",
+            "email": "robinhoo1973@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "laravel/framework": "^5.5.0"
+    },
+    "require-dev": {
+        "fzaninotto/faker": "~1.4",
+        "mockery/mockery": "0.9.*",
+        "orchestra/testbench": "~3.5.0",
+        "phpunit/phpunit": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "TopviewDigital\\UniqueJsonRule\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "TopviewDigital\\UniqueJsonRule\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "TopviewDigital\\UniqueJsonRule\\UniqueJsonRuleServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable"
+}

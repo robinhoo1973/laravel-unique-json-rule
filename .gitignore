@@ -17,6 +17,7 @@ vendor
 tests
 .scrutinizer.yml
 .travis.yml
+.vscode
 Homestead.yaml
 Homestead.json
 

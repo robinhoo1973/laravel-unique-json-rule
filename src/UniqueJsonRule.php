@@ -32,7 +32,7 @@ class UniqueJsonRule
      *
      * @return static
      */
-    public static function for($table, $column = null)
+    public static function for ($table, $column = null)
     {
         return new static($table, $column);
     }

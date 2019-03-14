@@ -19,7 +19,7 @@ class UniqueJsonValidator
     {
         list($name, $json_field) = array_map('trim', explode('.', $attribute));
         $parameters = array_map('trim', $parameters);
-        $parameters = array_map(function ($u) {
+        $parameters = array_map(function($u) {
             return strtolower($u) == 'null' || empty($u) ? null : $u;
         }, $parameters);
         list($table, $combined_fields, $except_value, $id_field) = array_pad($parameters, 4, null);

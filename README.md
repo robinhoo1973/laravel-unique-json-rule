@@ -1,3 +1,8 @@
+
+[![GitHub release](https://img.shields.io/github/release/robinhoo1973/laravel-unique-json-rule.svg)]()
+[![License](https://img.shields.io/packagist/l/topview-digital/laravel-unique-json-rule.svg)]()
+[![Total Downloads](https://img.shields.io/packagist/dt/topview-digital/laravel-unique-json-rule.svg)](https://packagist.org/packages/topview-digital/laravel-unique-json-rule)
+
 # Laravel Unique Json
 
 

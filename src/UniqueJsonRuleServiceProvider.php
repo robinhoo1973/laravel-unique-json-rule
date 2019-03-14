@@ -25,6 +25,6 @@ class UniqueJsonRuleServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        Validator::extend('unique_json', UniqueJsonValidator::class . '@validate');
+        Validator::extend('unique_json', UniqueJsonValidator::class . '@validate', trans('validation.unique'));
     }
 }

@@ -35,7 +35,7 @@ Your form can also submit an array of contact.
 <input name="contact[phone]">
 ```
 
-We need to validate the entire array in this case. Mind the `contact.*` key.
+We need to validate the entire array in this case. 
 
 ```php
 $attributes = request()->validate([
@@ -62,8 +62,8 @@ If your ID column has a different name, or you just want to use another column:
 
 ```php
 $attributes = request()->validate([
-    'contact.name' => 'unique_json:clients,contact->name,{$client->id},id',
-    'contact.email' => UniqueJsonRule::for('clients','contact->email')->ignore($client->id,'id'),
+    'contact.name' => 'unique_json:clients,contact->name,{$client->uuid},uuid',
+    'contact.email' => UniqueJsonRule::for('clients','contact->email')->ignore($client->uuid,'uuid'),
 ]);
 ```
 

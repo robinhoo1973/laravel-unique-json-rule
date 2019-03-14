@@ -6,7 +6,7 @@ use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Validator;
 use TopviewDigital\UniqueJsonRule\UniqueJsonValidator;
 
-class UniqueJsonServiceProvider extends ServiceProvider
+class UniqueJsonRuleServiceProvider extends ServiceProvider
 {
     /**
      * Register services.

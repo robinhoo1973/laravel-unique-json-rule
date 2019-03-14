@@ -19,7 +19,7 @@ Require the package via Composer:
 ```
 composer require topview-digital/laravel-unique-json-rule
 ```
-Laravel will automatically register the [ServiceProvider](https://github.com/robinhoo1973/laravel-unique-json-rule/blob/master/src/UniqueJsonServiceProvider.php).
+Laravel will automatically register the [ServiceProvider](https://github.com/robinhoo1973/laravel-unique-json-rule/blob/master/src/UniqueJsonRuleServiceProvider.php).
 
 ## Usage
 

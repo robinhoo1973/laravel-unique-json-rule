@@ -1,7 +1,11 @@
 
 [![GitHub release](https://img.shields.io/github/release/robinhoo1973/laravel-unique-json-rule.svg)]()
 [![License](https://img.shields.io/packagist/l/topview-digital/laravel-unique-json-rule.svg)]()
-[![Total Downloads](https://img.shields.io/packagist/dt/topview-digital/laravel-unique-json-rule.svg)](https://packagist.org/packages/topview-digital/laravel-unique-json-rule)
+[![Total Downloads](https://img.shields.io/packagist/dt/topview-digital/laravel-unique-json-rule.svg)]
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/robinhoo1973/laravel-unique-json-rule/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/robinhoo1973/laravel-unique-json-rule/?branch=master)
+[![Build Status](https://scrutinizer-ci.com/g/robinhoo1973/laravel-unique-json-rule/badges/build.png?b=master)](https://scrutinizer-ci.com/g/robinhoo1973/laravel-unique-json-rule/build-status/master)
+[![Code Intelligence Status](https://scrutinizer-ci.com/g/robinhoo1973/laravel-unique-json-rule/badges/code-intelligence.svg?b=master)](https://scrutinizer-ci.com/code-intelligence)
+(https://packagist.org/packages/topview-digital/laravel-unique-json-rule)
 
 # Laravel Unique Json
 

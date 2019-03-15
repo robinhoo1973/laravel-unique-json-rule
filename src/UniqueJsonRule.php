@@ -24,22 +24,24 @@ class UniqueJsonRule
      * @var string|null
      */
     protected $ignoreColumn = null;
+
     /**
      * Create a new rule instance.
      *
-     * @param string $table
+     * @param string      $table
      * @param string|null $column
      *
      * @return static
      */
-    public static function for ($table, $column = null)
+    public static function for($table, $column = null)
     {
         return new static($table, $column);
     }
+
     /**
      * Create a new rule instance.
      *
-     * @param string $table
+     * @param string      $table
      * @param string|null $column
      */
     public function __construct($table, $column = null)
@@ -47,10 +49,11 @@ class UniqueJsonRule
         $this->table = $table;
         $this->column = $column;
     }
+
     /**
      * Ignore any record that has a column with the given value.
      *
-     * @param mixed $value
+     * @param mixed  $value
      * @param string $column
      *
      * @return $this
@@ -59,8 +62,10 @@ class UniqueJsonRule
     {
         $this->ignoreValue = $value;
         $this->ignoreColumn = $column;
+
         return $this;
     }
+
     /**
      * Generate a string representation of the validation rule.
      *

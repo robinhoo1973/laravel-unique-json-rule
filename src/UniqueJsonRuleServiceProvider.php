@@ -2,9 +2,8 @@
 
 namespace TopviewDigital\UniqueJsonRule;
 
-use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Validator;
-use TopviewDigital\UniqueJsonRule\UniqueJsonValidator;
+use Illuminate\Support\ServiceProvider;
 
 class UniqueJsonRuleServiceProvider extends ServiceProvider
 {
@@ -25,6 +24,6 @@ class UniqueJsonRuleServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        Validator::extend('unique_json', UniqueJsonValidator::class . '@validate', trans('validation.unique'));
+        Validator::extend('unique_json', UniqueJsonValidator::class.'@validate', trans('validation.unique'));
     }
 }

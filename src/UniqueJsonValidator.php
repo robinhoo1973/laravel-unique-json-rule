@@ -1,4 +1,5 @@
 <?php
+
 namespace TopviewDigital\UniqueJsonRule;
 
 use DB;
@@ -8,9 +9,9 @@ class UniqueJsonValidator
     /**
      * Check if the translated value is unique in the database.
      *
-     * @param string $attribute
-     * @param string $value
-     * @param array $parameters
+     * @param string                           $attribute
+     * @param string                           $value
+     * @param array                            $parameters
      * @param \Illuminate\Validation\Validator $validator
      *
      * @return bool
@@ -30,6 +31,7 @@ class UniqueJsonValidator
         );
         $field = $field ?: $name;
         $json = $json ?? $json_field;
+
         return $this->findJsonValue(
             $value,
             $json,
@@ -43,11 +45,11 @@ class UniqueJsonValidator
     /**
      * Check if a translation is unique.
      *
-     * @param mixed $value
-     * @param string $locale
-     * @param string $table
-     * @param string $column
-     * @param mixed $ignoreValue
+     * @param mixed       $value
+     * @param string      $locale
+     * @param string      $table
+     * @param string      $column
+     * @param mixed       $ignoreValue
      * @param string|null $ignoreColumn
      *
      * @return bool
@@ -64,7 +66,7 @@ class UniqueJsonValidator
         $id_field = $id_field ?? 'id';
         $query = DB::table($table)->where("{$field}->{$json}", $value);
         if ($except_value) {
-            $query = $query->where($id_field, "!=", $except_value);
+            $query = $query->where($id_field, '!=', $except_value);
         }
 
         return $query->count() === 0;

@@ -5,7 +5,7 @@
 [![Code Intelligence Status](https://scrutinizer-ci.com/g/robinhoo1973/laravel-unique-json-rule/badges/code-intelligence.svg?b=master)](https://scrutinizer-ci.com/code-intelligence)
 [![License](https://img.shields.io/packagist/l/topview-digital/laravel-unique-json-rule.svg)]()
 [![Total Downloads](https://img.shields.io/packagist/dt/topview-digital/laravel-unique-json-rule.svg)](https://packagist.org/packages/topview-digital/laravel-unique-json-rule)
-
+[![HitCount](http://hits.dwyl.io/robinhoo1973/https://github.com/robinhoo1973/laravel-unique-json-rule.svg)](http://hits.dwyl.io/robinhoo1973/https://github.com/robinhoo1973/laravel-unique-json-rule)
 
 # Laravel Unique Json
 

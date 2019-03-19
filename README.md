@@ -12,7 +12,7 @@
 
 #### Check if a record value in a JSON column is unique in the database.
 
-Implementations of Json field unqiue validation rule and inspired by codezero-be/laravel-unique-translation
+Implementations of Json field unqiue validation rule and inspired by [codezero-be/laravel-unique-translation](https://github.com/codezero-be/laravel-unique-translation)
 
 ## Requirements
 

@@ -18,7 +18,7 @@ Implementations of Json field unqiue validation rule and inspired by [codezero-b
 
 -   PHP >= 7.0
 -   MySQL >= 5.7
--   [Laravel](https://laravel.com/) >= 5.5
+-   [Laravel](https://laravel.com/) >= 5.6
 
 
 ## Installation
